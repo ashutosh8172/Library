@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open Library Book Search</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sample.css" />
+  </head>
+  <body>
+    <h1>Open Library Book Search</h1>
+    <form>
+      <label for="search-query">Search for books:</label>
+      <input type="text" id="search-query" name="q" />
+      <button type="submit">Search</button>
+    </form>
+    <table id="book-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Publish Date</th>
+          <th>Publisher</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div>
+      <button id="nextBtn">Next</button>
+      <button id="prevBtn">Previous</button>
+    </div>
+    <script src="sample.js"></script>
+  </body>
+</html>
